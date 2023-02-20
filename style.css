@@ -57,25 +57,28 @@
 .mail{
     background: rgba(0, 0, 0, 0.1);
     position: absolute;
-    width: 750px;
-    height: 80px;
-    left: 96px;
-    top: 596px;
+    width: 250px;
+    height: 30px;
     border-radius: 20px;
     border:none;
-    font-size: 30px;
+    font-size: 20px;
+    padding: 26px;
+    right: 30px;
 }
 
 .pass{
     background: rgba(0, 0, 0, 0.1);
     position: absolute;
-    width: 750px;
-    height: 80px;
-    left: 96px;
-    top: 700px;
+    width: 250px;
+    height: 30px;
+    right: 30px;
     border-radius: 20px;
     border:none;
-    font-size: 30px;
+    font-size: 20px;
+    padding:26px;
+    bottom:250px;
+    
+    
 }
 
 .circled{
