@@ -52,6 +52,16 @@
 
 }
 
+.welc {
+    font-size: 2.875rem;
+    line-height: 55px;
+    color: white;
+    margin-bottom: 9.625rem;
+    position:absolute;
+    top:150px;
+    left:50px;
+  }
+
 
 
 .mail{
@@ -88,18 +98,11 @@
     width: 64px;
     height: 64px;
     left: 225px;
-    top: 566px;
-    color: white;
+    top: 500px;
+    color: red;
 
 }
-.circled h2{
-    background: #FFFFFF;
-    position: absolute;
-    left: 78.93%;
-    right: 34.67%;
-    top: 52.66%;
-    bottom: 25.37%;
-}
+
 
 h3{
     color: #000000;
@@ -107,7 +110,7 @@ h3{
     width: 106px;
     height: 38px;
     left: 36px;
-    top: 579px;
+    top: 510px;
     font-family: 'poppins';
     font-style: normal;
     font-weight: 900;
