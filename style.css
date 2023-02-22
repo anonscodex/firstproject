@@ -12,6 +12,7 @@
     overflow: hidden;
     padding:360px 100px;
     margin:auto;
+   
 }
 
   
@@ -67,7 +68,7 @@
 .mail{
     background: rgba(0, 0, 0, 0.1);
     position: absolute;
-    width: 250px;
+    width: 80%;
     height: 30px;
     border-radius: 20px;
     border:none;
@@ -79,14 +80,14 @@
 .pass{
     background: rgba(0, 0, 0, 0.1);
     position: absolute;
-    width: 250px;
+    width: 80%;
     height: 30px;
     right: 30px;
     border-radius: 20px;
     border:none;
     font-size: 20px;
     padding:26px;
-    bottom:250px;
+    bottom:230px;
     
     
 }
