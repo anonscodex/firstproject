@@ -6,7 +6,6 @@
 
 body{
     background-color: rgba(0, 0, 0, 0.1);
-    
 }
 
 .container {
@@ -17,16 +16,16 @@ body{
     overflow: hidden;
     padding:360px 100px;
     margin:auto;
-   background-color: white;
+   background-color: #58BFE6;
    z-index:0;
 }
 
 .back {
-    background-color: #FFAE48; 
+    background-color: #4C525C; 
     border-radius: 50%; 
     position: absolute;
     right: 270px;
-    top: 50px;
+    top: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,66 +35,63 @@ body{
 }
 
   
-.circlea{
-    background: #58BFE6;
-    border-radius:50%;
-    position: absolute;
-    width: 398px;
-    height: 398px;
-    left: 200px;
-    top:-40px;
 
-}
-
-.circleb{
+.circle{
     
     background: #4C525C;
     border-radius:50%;
     position: absolute;
     width: 700px;
     height: 700px;
-    left: -184px;
+    left: -300px;
     top: -412px;
 
 
 }
 
-.circlec{
-    
-    background: #FFAE48;
-    border-radius:50%;
-    position: absolute;
-    width: 398px;
-    height: 398px;
-    left: -149px;
-    top: -242px;
 
 
-}
-
-.welc {
+.create {
     font-size: 2.875rem;
     line-height: 55px;
     color: white;
     margin-bottom: 9.625rem;
     position:absolute;
-    top:150px;
+    top:130px;
     left:50px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
   }
 
 
+
+.name{
+    background: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 80%;
+    height: 0px;
+    border-radius: 20px;
+    border:none;
+    font-size: 20px;
+    padding: 26px;
+    right: 30px;
+    color:white;
+    top:320px;
+}
 
 .mail{
     background: rgba(0, 0, 0, 0.1);
     position: absolute;
     width: 80%;
     height: 30px;
+    right: 30px;
     border-radius: 20px;
     border:none;
     font-size: 20px;
-    padding: 26px;
-    right: 30px;
+    padding:26px;
+    bottom:280px;
+    color:white;
+    
 }
 
 .pass{
@@ -108,17 +104,22 @@ body{
     border:none;
     font-size: 20px;
     padding:26px;
-    bottom:230px;
-    
+    bottom:210px;
     
 }
 
-.circled{
+:is(.name, .mail, .pass)::placeholder {
+    color: #fff;
+  }
+
+
+
+.circlea{
     background: #4C525C; 
     border-radius: 50%; 
     position: absolute;
     left: 270px;
-    top: 500px;
+    top: 520px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -129,17 +130,30 @@ body{
 
 
 h3{
-    color: #000000;
+    color: black;
     position: absolute;
     width: 106px;
     height: 38px;
     left: 50px;
-    top: 510px;
+    top: 530px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
     line-height: 38px;
+    
+}
+
+.circleb{
+    background: #ffffff;
+    border-radius:50%;
+    position: absolute;
+    width: 398px;
+    height: 398px;
+    left: 200px;
+    bottom:-200px;
+    padding-bottom: 50px;
+    z-index:-1;
 }
 
 
@@ -154,34 +168,18 @@ h3{
 
 a {
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
-.left {
-    position: absolute;
-    color: #000000;
-    padding: 5px;
-    left:-40px;
-  }
-  
-  
-  .left::after {
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 9px;
-    background-color: hsla(55, 66%, 69%, 1);
-    bottom: 0;
-    left: 0px;
-    bottom: 5px;
-    z-index: -1;
-  }
+
   
   .right {
     position: relative;
     color: #000000;
     padding: 5px;
-    right:-101px;
+    right:-175px;
+    bottom:40px;
+    z-index:1
   }
   
   .right::after {
@@ -189,7 +187,7 @@ a {
     content: "";
     width: 100%;
     height: 9px;
-    background: hsla(357, 96%, 79%, 1);
+    background: #58BFE6;
     bottom: 0;
     left: 0;
     bottom: 5px;
