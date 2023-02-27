@@ -20,6 +20,20 @@ body{
    z-index:0;
 }
 
+.back {
+    background-color: #FFAE48; 
+    border-radius: 50%; 
+    position: absolute;
+    right: 270px;
+    top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    z-index: 1;
+}
+
   
 .circlea{
     background: #58BFE6;
@@ -101,12 +115,14 @@ body{
     background: #4C525C; 
     border-radius: 50%; 
     position: absolute;
+    left: 270px;
+    top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 64px;
     height: 64px;
-    left: 225px;
-    top: 500px;
-    color: red;
-
+    
 }
 
 
@@ -115,7 +131,7 @@ h3{
     position: absolute;
     width: 106px;
     height: 38px;
-    left: 36px;
+    left: 50px;
     top: 510px;
     font-family: 'poppins';
     font-style: normal;
@@ -155,7 +171,7 @@ a {
     position: absolute;
     color: #000000;
     padding: 5px;
-    left:-60px;
+    left:-40px;
   }
   
   
